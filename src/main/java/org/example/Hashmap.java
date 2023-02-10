@@ -14,7 +14,8 @@ public class Hashmap
         String hash = ""+hashMap;
         Log.info(hash);
         String print=""+hashMap.size();
-        Log.info("Size: "+print);
+        String p1="Size: "+print;
+        Log.info(p1);
         String key = ""+hashMap.keySet();
         Log.info(key);
         String val = ""+hashMap.values();
