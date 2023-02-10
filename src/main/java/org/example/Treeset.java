@@ -7,7 +7,6 @@ public class Treeset
         public static final Logger Log = Logger.getLogger("InfoLogging");
         public static void main(String[] args)
         {
-            Treeset obj=new  Treeset();
             TreeSet<String> treeSet = new TreeSet<>();
             treeSet.add("vignesh");
             treeSet.add("vicky");
