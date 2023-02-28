@@ -1,32 +1,11 @@
 package org.example;
 import java.util.HashSet;
 import java.util.logging.Logger;
-class IdCard
-{
-    int rollno;
-    String name;
-    String department;
-    String year;
-    long phonenumber;
-    String bloodGroup;
-    IdCard(int rollno,String name,String department,String year,long phonenumber,String bloodGroup)
-    {
-        this.rollno=rollno;
-        this.name=name;
-        this.department=department;
-        this.year=year;
-        this.phonenumber=phonenumber;
-        this.bloodGroup=bloodGroup;
-    }
-    public String toString()
-    {
-        return this.rollno+" "+this.name+" "+this.year+" "+this.department+" "+this.phonenumber+" "+this.bloodGroup;
-    }
-}
+
 public class Hashset
 {
     public static final Logger Log = Logger.getLogger("InfoLogging");
-    public static void main(String[] args)
+    public  void hashset()
     {
         IdCard idCard=new IdCard(1915058,"Vignesh","B.Tech(IT)","4th-year",7871973447L,"O+");
         IdCard idCard1=new IdCard(1915059,"Vignesh Laxman","B.Tech(CSC)","3th-year",7871973447L,"A+");

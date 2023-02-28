@@ -4,7 +4,7 @@ import java.util.logging.Logger;
 public class Hashmap
 {
     public static final Logger Log = Logger.getLogger("InfoLogging");
-    public static void main(String[] args)
+    public  void hashmap()
     {
         HashMap<String,String> hashMap = new HashMap<>();
         hashMap.put("1915058","vignesh");
@@ -27,6 +27,5 @@ public class Hashmap
         hash = ""+hashMap;
         Log.info(hash);
         Log.info(hashMap.get("1915059"));
-
     }
 }
